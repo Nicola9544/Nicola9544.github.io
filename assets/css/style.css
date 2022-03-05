@@ -1,0 +1,32 @@
+.page {
+  margin-left:50px;
+  margin-right: 50px;
+  text-align: justify;
+line-height: 2;
+
+}
+ .container-fluid {
+   color: #000000;
+   padding: 10px;
+ font-size: 20px;
+   font-weight: bold;
+ }
+.h1 {
+  text-align:center;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  page {width:20px;}
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+page {width: 20px;}
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+
+  }
+}
