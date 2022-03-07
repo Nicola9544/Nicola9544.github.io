@@ -5,6 +5,31 @@
 line-height: 2;
 
 }
+.h1 {
+  text-align: center;
+}
+.header {
+  text-align: justify;
+}
+.button {
+  color: #FFF;
+background-color: #5995DA;    /* Blue */
+font-weight: bold;
+padding: 20px;
+text-align: center;
+border: 2px solid #5D6063;    /* Dark gray */
+border-radius: 5px;
+margin: 20px;
+}
+.button2 {
+  color: #FFF;
+  background-color: #EEB75A;    /* Blue */
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;}
+
  .container-fluid {
    color: #000000;
    padding: 10px;
@@ -14,4 +39,25 @@ line-height: 2;
 .mb-4 {
   margin-left: 50px;
   margin-right: 50px;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+margin-bottom: 60px;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+.photo-grid {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-direction: row;
+   align-items: center;
+ }
+
+.photo-grid-item {
+  border: 2px solid #fff;
+
 }
