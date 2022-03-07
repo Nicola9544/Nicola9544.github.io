@@ -9,7 +9,8 @@ line-height: 2;
   text-align: center;
 }
 .header {
-  text-align: justify;
+  text-align: center;
+  margin-bottom: 70px;
 }
 .button {
   color: #FFF;
@@ -37,14 +38,14 @@ margin: 20px;
    font-weight: bold;
  }
 .mb-4 {
-  margin-left: 50px;
+  margin-left: 100px;
   margin-right: 50px;
 }
 
 .photo-grid-container {
   display: flex;
   justify-content: center;
-margin-bottom: 60px;
+margin-bottom: 120px;
 margin-left: 50px;
 margin-right: 50px;
 }
