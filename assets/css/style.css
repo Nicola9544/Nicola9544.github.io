@@ -8,7 +8,7 @@ line-height: 2;
 .h1 {
   text-align: center;
   margin-bottom: 70px;
-  margin-top: 70px;
+  margin-top: 100px;
 
 }
 .header {
@@ -59,6 +59,7 @@ text-align: center;
 border: 2px solid #5D6063;    /* Dark gray */
 border-radius: 5px;
 margin: 20px;
+
 }
 .button2 {
   color: #FFF;
@@ -67,7 +68,22 @@ margin: 20px;
   padding: 20px;
   text-align: center;
   border: 2px solid #5D6063;    /* Dark gray */
-  border-radius: 5px;}
+  border-radius: 5px;
+}
+  .button3:link,                 /* Change this */
+  .button3:visited {             /* Change this */
+    display: block;             /* Add this */
+    text-decoration: none;      /* Add this */
+    color: #FFF;                /* The rest is the same */
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    width: 200px;
+    margin: 10px auto;
+  }
 .chisono {
   text-align: center;
   margin-left: 30px;
@@ -93,7 +109,7 @@ margin: 20px;
 .photo-grid-container {
   display: flex;
   justify-content: center;
-margin-bottom: 120px;
+margin-bottom: 50px;
 margin-left: 100px;
 margin-right: 50px;
 }
@@ -109,4 +125,8 @@ margin-right: 50px;
 .photo-grid-item {
   border: 2px solid #fff;
 
+}
+.passioni {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
