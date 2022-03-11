@@ -111,7 +111,7 @@ margin: 20px;
 .mb-4 {
   margin-left: 100px;
   margin-right: 50px;
-  margin-top: 50px;
+
   margin-bottom: 50px;
 }
 
@@ -135,4 +135,9 @@ margin-top: 30px;
 
 .photo-grid-item {
   border: 2px solid #fff;
+}
+.container {
+  color: #000000;
+font-size: 20px;
+  font-weight: bold;
 }
