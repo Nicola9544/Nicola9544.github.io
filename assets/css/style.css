@@ -146,3 +146,13 @@ font-size: 20px;
 margin-bottom: 20px;
 text-align: center;
 }
+.anime,
+.gaming {
+  text-align: justify;
+  margin-bottom: 100px;
+}
+.cinema,
+.mobilità {
+  text-align: center;
+  margin-bottom: 100px;
+}
