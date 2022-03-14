@@ -160,11 +160,11 @@ text-align: center;
 .scuola {
   text-align: center;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .e-development,
 .amazon {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: ;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: justify;
 }
